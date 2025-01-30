@@ -30,7 +30,7 @@ jobs:
         if: always()
         with:
           inputXmlPath: TestsResultsAdmin-CI.xml
-          outputHtmlPath: test_results/gh_comment.txt
+          outputFilePath: test_results/gh_comment.txt
           
       - name: Upload test artifacts # So you can download the results from the workflow run.
         uses: actions/upload-artifact@v4
