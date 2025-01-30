@@ -33,7 +33,7 @@ jobs:
           outputHtmlPath: test_results/results.html
           
       - name: Upload test artifacts # So you can download the results from the workflow run.
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           path: test_results
