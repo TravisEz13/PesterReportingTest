@@ -12,7 +12,10 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
+env:
+  nunitPath: nunit25/TestsResultsAdmin-CI.xml
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -29,7 +32,7 @@ jobs:
         uses: sierpinskid/unity-nunit-github-comment@v1
         if: always()
         with:
-          inputXmlPath: TestsResultsAdmin-CI.xml
+          inputXmlPath: ${{ env.nunitPath }}
           outputFilePath: test_results/gh_comment.txt
           
       - name: Upload test artifacts # So you can download the results from the workflow run.
