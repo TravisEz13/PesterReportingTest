@@ -27,7 +27,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-    
+      
+      - name: Capture ctrf json
+        run: |-
+          Get-ChildItem '${{ github.workspace }}\ctrf\*.json'
+        shell: powershell
+        
       - name: Publish Test Report
         uses: ctrf-io/github-test-reporter@v1
         with:
