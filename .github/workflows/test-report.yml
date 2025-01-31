@@ -58,12 +58,12 @@ jobs:
           report-path: './ctrf/*.json'
           summary-report: true
           test-report: false
-          test-list-report: true
+          test-list-report: false
           failed-report: false
           fail-rate-report: false
           flaky-report: false
           flaky-rate-report: false
-          failed-folded-report: false
+          failed-folded-report: true
           previous-results-report: false
           ai-report: true
           skipped-report: false
