@@ -56,4 +56,20 @@ jobs:
         uses: ctrf-io/github-test-reporter@v1
         with:
           report-path: './ctrf/*.json'
+          summary-report: true
+          test-report: false
+          test-list-report: false
+          failed-report: false
+          fail-rate-report: false
+          flaky-report: false
+          flaky-rate-report: false
+          failed-folded-report: false
+          previous-results-report: false
+          ai-report: false
+          skipped-report: false
+          suite-folded-report: false
+          suite-list-report: false
+          pull-request-report: false
+          commit-report: false
+          custom-report: false
         if: always()
