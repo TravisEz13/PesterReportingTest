@@ -1,0 +1,1478 @@
+{
+  "results": {
+    "tool": {
+      "name": "Pester"
+    },
+    "summary": {
+      "tests": 243,
+      "passed": 221,
+      "failed": 0,
+      "skipped": 22,
+      "pending": 0,
+      "other": 0,
+      "start": 0,
+      "stop": 0
+    },
+    "tests": [
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.Execution policy test",
+        "status": "passed",
+        "duration": 109,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.Module logging policy test",
+        "status": "passed",
+        "duration": 5489,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.ScriptBlock logging policy test",
+        "status": "passed",
+        "duration": 2369,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.Transcription policy test",
+        "status": "passed",
+        "duration": 687,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.Default SourcePath on Update-Help policy test",
+        "status": "passed",
+        "duration": 1513,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1: Group policy settings tests.Group policy settings tests.Session configuration policy test",
+        "status": "passed",
+        "duration": 24566,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Basic\\GroupPolicySettings.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Module level tests.The CimTest module should have been loaded",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Module level tests.The CimTest module should have the proper cmdlets",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should return 4 objects",
+        "status": "passed",
+        "duration": 29,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should retrieve an object via id",
+        "status": "passed",
+        "duration": 13,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should retrieve an object by piped id",
+        "status": "passed",
+        "duration": 13,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should retrieve an object by datetime",
+        "status": "passed",
+        "duration": 14,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should return the proper error if the instance does not exist",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.The Get-CimTest cmdlet should work as a job",
+        "status": "passed",
+        "duration": 12,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Get-CimTest cmdlet.Should be possible to invoke a method on an object returned by Get-CimTest",
+        "status": "passed",
+        "duration": 16,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Remove-CimTest cmdlet.The Remote-CimTest cmdlet should remove objects by id",
+        "status": "passed",
+        "duration": 63,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Remove-CimTest cmdlet.The Remove-CimTest cmdlet should remove piped objects",
+        "status": "passed",
+        "duration": 37,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Remove-CimTest cmdlet.The Remove-CimTest cmdlet should work as a job",
+        "status": "passed",
+        "duration": 40,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.New-CimTest operations.Should create a new instance",
+        "status": "passed",
+        "duration": 23,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.New-CimTest operations.Should return the proper error if called with an improper value",
+        "status": "passed",
+        "duration": 9,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.New-CimTest operations.Should support -whatif",
+        "status": "passed",
+        "duration": 5,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Set-CimTest operations.Should set properties on an instance",
+        "status": "passed",
+        "duration": 34,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1: Cdxml cmdlets are supported.Set-CimTest operations.Should set properties on an instance via pipeline",
+        "status": "passed",
+        "duration": 22,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Cdxml\\Cdxml.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\HelpSystem.Tests.ps1: Validate about_help.txt under culture specific folder works.Get-Help should return help text and not multiple HelpInfo objects when help is under $PSHOME path",
+        "status": "passed",
+        "duration": 13358,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\HelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\HelpSystem.Tests.ps1: Validate about_help.txt under culture specific folder works.Get-Help for about_Variable should return only one help object",
+        "status": "passed",
+        "duration": 144,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\HelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1: Validate Update-Help from the Web for one PowerShell module..Validate Update-Help for module 'Microsoft.PowerShell.Core' in AllUsers",
+        "status": "passed",
+        "duration": 396,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1: Validate Update-Help from the Web for one PowerShell module for user scope..Validate Update-Help for module 'Microsoft.PowerShell.Core' in CurrentUser",
+        "status": "passed",
+        "duration": 657,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1: Validate Update-Help -SourcePath for one PowerShell module..Validate Update-Help for module 'Microsoft.PowerShell.Core' in AllUsers",
+        "status": "passed",
+        "duration": 317,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1: Validate Update-Help -SourcePath for one PowerShell module for user scope..Validate Update-Help for module 'Microsoft.PowerShell.Core' in CurrentUser",
+        "status": "passed",
+        "duration": 323,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1: Validate 'Save-Help -DestinationPath for one PowerShell modules..Validate Save-Help for the 'Microsoft.PowerShell.Core' module",
+        "status": "passed",
+        "duration": 124,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Help\\UpdatableHelpSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The value 'User' should return the proper value",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The value 'Machine' should return the proper value",
+        "status": "passed",
+        "duration": 1,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The value 'Builtin' should return the proper value",
+        "status": "passed",
+        "duration": 1,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The current module path should contain the expected paths for 'User'",
+        "status": "passed",
+        "duration": 54,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The current module path should contain the expected paths for 'Machine'",
+        "status": "passed",
+        "duration": 63,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1: ModuleIntrinsics.GetPSModulePath API tests.The current module path should contain the expected paths for 'Builtin'",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Module\\ModulePath.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should work in JEA sessions",
+        "status": "passed",
+        "duration": 1843,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on //fakehost/share/test.dll",
+        "status": "passed",
+        "duration": 4216,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on //fakehost/share/test.dll\\fakecommand",
+        "status": "passed",
+        "duration": 1821,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on //fakehost/share/test.ps1",
+        "status": "passed",
+        "duration": 1832,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on //fakehost\\share/test.ps1",
+        "status": "passed",
+        "duration": 1799,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on \\\\fakehost.pstest\\share\\test.ps1",
+        "status": "passed",
+        "duration": 1860,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on \\\\fakehost\\share\\test.ps1",
+        "status": "passed",
+        "duration": 1827,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on filesystem:://fakehost/share/test.ps1",
+        "status": "passed",
+        "duration": 1838,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw CommandNameNotAllowed,Microsoft.PowerShell.Commands.GetHelpCommand on Microsoft.PowerShell.Core\\filesystem:://fakehost/share/test.ps1",
+        "status": "passed",
+        "duration": 1788,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: JEA session Get-Help test.Get-Help should throw ScriptsNotAllowed on //;LanmanRedirector/fakehost/share/test.dll\\fakecommand",
+        "status": "passed",
+        "duration": 1811,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can connect to default endpoint",
+        "status": "passed",
+        "duration": 321,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can execute command in a disconnected session",
+        "status": "passed",
+        "duration": 357,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can disconnect and connect to PSSession",
+        "status": "passed",
+        "duration": 364,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Cannot use InDisconnectedState and AsJob together",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Cannot use SessionName without InDisconnectedSession",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Cannot use Invoke-Command on a disconnected session",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Cannot use Invoke-Command on a closed session",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can execute command if one of the sessions is available",
+        "status": "passed",
+        "duration": 50,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can execute command without creating new scope",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can execute command from a file",
+        "status": "passed",
+        "duration": 26,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can invoke-command as job",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can connect to all disconnected sessions by name",
+        "status": "passed",
+        "duration": 756,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Can pass values through $using",
+        "status": "passed",
+        "duration": 23,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.$Host.Version should be PSVersion",
+        "status": "passed",
+        "duration": 392,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1: Remoting loopback tests.Language Mode is FullLanguage by default",
+        "status": "passed",
+        "duration": 347,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\engine\\Remoting\\RemoteSession.Basic.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Host\\Logging.Tests.ps1: Basic EventLog tests on Windows.Verifies scriptblock logging: normal script block",
+        "status": "passed",
+        "duration": 1390,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Host\\Logging.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Host\\Logging.Tests.ps1: Basic EventLog tests on Windows.Verifies scriptblock logging: script block with Null",
+        "status": "passed",
+        "duration": 1328,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Host\\Logging.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1: New-CimSession.A cim session can be created",
+        "status": "passed",
+        "duration": 163,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1: New-CimSession.A Cim session can be retrieved",
+        "status": "passed",
+        "duration": 47,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1: New-CimSession.A cim session can be removed",
+        "status": "passed",
+        "duration": 56,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\CimCmdlets\\CimSession.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Register-PSSessionConfiguration.Register-PSSessionConfiguration -TransportOption",
+        "status": "passed",
+        "duration": 1095,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Get-PSSessionConfiguration cmdlet.Get-PSSessionConfiguration with no parameter",
+        "status": "passed",
+        "duration": 584,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Get-PSSessionConfiguration cmdlet.Get-PSSessionConfiguration with Name parameter",
+        "status": "passed",
+        "duration": 58,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Get-PSSessionConfiguration cmdlet.Get-PSSessionConfiguration -Name with wildcard character",
+        "status": "passed",
+        "duration": 108,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Get-PSSessionConfiguration cmdlet.Get-PSSessionConfiguration -Name with Non-Existent session configuration",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Enable-PSSessionConfiguration and Disable-PSSessionConfiguration.Validate Disable-Configuration cmdlet",
+        "status": "passed",
+        "duration": 1448,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Enable-PSSessionConfiguration and Disable-PSSessionConfiguration.Validate Enable-Configuration cmdlet",
+        "status": "passed",
+        "duration": 1600,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Unregister-PSSessionConfiguration cmdlet.Validate Unregister-PSSessionConfiguration with -name parameter",
+        "status": "passed",
+        "duration": 1612,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Unregister-PSSessionConfiguration cmdlet.Validate Unregister-PSSessionConfiguration with name having wildcard character",
+        "status": "passed",
+        "duration": 1304,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Validate Get-PSSessionConfiguration, Enable-PSSessionConfiguration, Disable-PSSessionConfiguration, Unregister-PSSessionConfiguration cmdlets.Validate Unregister-PSSessionConfiguration cmdlet.Validate Unregister-PSSessionConfiguration for non-existant endpoint",
+        "status": "passed",
+        "duration": 692,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Basic tests for New-PSSessionConfigurationFile Cmdlet.Validate New-PSSessionConfigurationFile can successfully create a valid PSSessionConfigurationFile",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Test suite for Test-PSSessionConfigurationFile Cmdlet.Validate FullyQualifiedErrorId from Test-PSSessionConfigurationFile when invalid path is provided as input",
+        "status": "passed",
+        "duration": 187,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Test suite for Test-PSSessionConfigurationFile Cmdlet.Validate FullyQualifiedErrorId from Test-PSSessionConfigurationFile when an invalid pssc file is provided as input and -Verbose parameter is specified",
+        "status": "passed",
+        "duration": 55,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1: Test suite for Test-PSSessionConfigurationFile Cmdlet.Test case verifies that the generated config file passes validation",
+        "status": "passed",
+        "duration": 25,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Core\\PSSessionConfiguration.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1: Clear-EventLog cmdlet tests.should be able to Clear-EventLog",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1: Clear-EventLog cmdlet tests.should throw 'System.InvalidOperationException' when asked to clear a log that does not exist",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1: Clear-EventLog cmdlet tests.should throw 'Microsoft.PowerShell.Commands.ClearEventLogCommand' ErrorId when asked to clear a log that does not exist",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Clear-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a hard link to a file",
+        "status": "passed",
+        "duration": 34,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create symbolic link to file",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a symbolic link to nothing",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item emits an error when path to symbolic link already exists.",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a symbolic link to a directory",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a directory symbolic link to a directory",
+        "status": "passed",
+        "duration": 13,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a directory symbolic link to a directory using a relative path",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a directory symbolic link to a directory using a relative path with .\\",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create a directory junction to a directory",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item fails creating junction with relative path",
+        "status": "passed",
+        "duration": 15,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item can create hardlink with relative path",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item will fail to forcibly create hardlink to itself",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.New-Item and hard/symbolic links.New-Item -Force can overwrite a junction",
+        "status": "passed",
+        "duration": 12,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem gets content of linked-to directory",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem -Name gets content of linked-to directory",
+        "status": "passed",
+        "duration": 10,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem does not recurse into symbolic links not explicitly given on the command line",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem -Name does not recurse into symbolic links not explicitly given on the command line",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem will recurse into symlinks given -FollowSymlink, avoiding link loops",
+        "status": "passed",
+        "duration": 12,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Get-ChildItem and symbolic links.Get-ChildItem -Name will recurse into symlinks given -FollowSymlink, avoiding link loops",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a hard link to a file",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a symbolic link to a file",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a symbolic link to a directory on Unix",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a symbolic link to a directory on Windows",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a directory symbolic link to a directory on Windows",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item can remove a junction to a directory",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Remove-Item and hard/symbolic links.Remove-Item ignores -Recurse switch when deleting symlink to directory",
+        "status": "passed",
+        "duration": 7,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Show immediate target.Property 'Target' should show the immediate target",
+        "status": "passed",
+        "duration": 9,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Hard link and symbolic link tests.Show immediate target.Get-Content should be able to resolve the final target",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item using different case (on case-sensitive file systems).Copy-Item can copy to file name differing only by case",
+        "status": "passed",
+        "duration": 9,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy to same path",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy hard link",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy hard link, reversed",
+        "status": "passed",
+        "duration": 17,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy symbolic link to target",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy symbolic link to symbolic link with same target",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy through chain of symbolic links",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy junction to target",
+        "status": "passed",
+        "duration": 5,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Copy-Item can avoid copying an item onto itself.Copy-Item avoids copying an item onto itself.Copy directory symbolic link to target",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Remove-Item UnAuthorized Access.Access-denied test for removing a folder",
+        "status": "passed",
+        "duration": 477,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: Windows admin tests.Verify Move-Item for directory across drives on Windows",
+        "status": "passed",
+        "duration": 92,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: OneDrive filesystem manipulation.Get-ChildItem will recurse into emulated OneDrive directory",
+        "status": "passed",
+        "duration": 12,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1: OneDrive filesystem manipulation.Remove-Item will recurse into emulated OneDrive directory",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\FileSystem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - Directory",
+        "status": "passed",
+        "duration": 9,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - SymbolicLink-Directory",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - Junction-Directory",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - ArchiveFile",
+        "status": "passed",
+        "duration": 7,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - SymbolicLink-File",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1: FileSystem Provider Formatting.Validate Mode property - HardLink",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ChildItem.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ComputerInfo.Tests.ps1: Tests for Get-ComputerInfo: Ensure Type returned.Verify type returned by Get-ComputerInfo",
+        "status": "passed",
+        "duration": 3194,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ComputerInfo.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ComputerInfo.Tests.ps1: Tests for Get-ComputerInfo: Ensure Type returned.Verify progress records in Get-ComputerInfo",
+        "status": "passed",
+        "duration": 1694,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-ComputerInfo.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should return an array of eventlogs objects when called with -AsString parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should return a list of eventlog objects when called with -List parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should be able to Get-EventLog -LogName Application -Newest 100",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should throw 'AmbiguousParameterSetException' when called with both -LogName and -List parameters",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should be able to Get-EventLog -LogName * with multiple matches",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1: Get-EventLog cmdlet tests.should throw 'InvalidOperationException' when asked to get a log that does not exist",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Item.Tests.ps1: Formatting for FileInfo requiring admin.Symlink should have correct color",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1: Get-Process for admin.Should support -Module",
+        "status": "passed",
+        "duration": 214,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1: Get-Process for admin.Should support -FileVersionInfo",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1: Get-Process for admin.Run with parameter -FileVersionInfo should not stop responding on non Windows platform also when process' main module is null.",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1: Get-Process for admin.Run with parameter -FileVersionInfo for idle process should throw on Windows.",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-Process.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1: Get-PSDrive for network path.Check P/Invoke GetDosDevice/QueryDosDevice",
+        "status": "passed",
+        "duration": 74,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1: Get-PSDrive for network path.Check P/Invoke for WNetGetConnection with small buffer: $false",
+        "status": "passed",
+        "duration": 51,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1: Get-PSDrive for network path.Check P/Invoke for WNetGetConnection with small buffer: $true",
+        "status": "passed",
+        "duration": 42,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Get-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to create a New-EventLog with a -Source parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to create a New-EventLog with a -ComputerName parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to create a New-EventLog with a -CategoryResourceFile parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to create a New-EventLog with a -MessageResourceFile parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to create a New-EventLog with a -ParameterResourceFile parameter",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item with links.Should create a symbolic link of a file without error",
+        "status": "passed",
+        "duration": 16,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item with links.Should create a symbolic link to a non-existing file without error",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item with links.Should create a symbolic link to directory without error",
+        "status": "passed",
+        "duration": 10,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item with links.New-Item -ItemType SymbolicLink should understand directory path ending with slash",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item with links.New-Item -ItemType SymbolicLink should be able to create a relative link",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item: symlink with absolute/relative path test.Symlink with absolute path to existing directory behaves like a directory",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item: symlink with absolute/relative path test.Symlink with relative path to existing directory behaves like a directory",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item: symlink with absolute/relative path test.Symlink with absolute path to existing file behaves like a file",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1: New-Item: symlink with absolute/relative path test.Symlink with relative path to existing file behaves like a file",
+        "status": "passed",
+        "duration": 1,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1: Tests for New-PSDrive cmdlet..Validate New-PSDrive Cmdlet with -Persist switch..Should not throw exception for persistent PSDrive creation.",
+        "status": "passed",
+        "duration": 22,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1: Tests for New-PSDrive cmdlet..Validate New-PSDrive Cmdlet with -Persist switch..Network drive initialization on pwsh startup DisplayRoot should have value of share",
+        "status": "passed",
+        "duration": 424,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1: Tests for New-PSDrive cmdlet..Validate New-PSDrive Cmdlet with -Persist switch..Should throw exception if root is not a remote share.",
+        "status": "passed",
+        "duration": 14,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1: Tests for New-PSDrive cmdlet..Validate New-PSDrive Cmdlet with -Persist switch..Should throw exception if PSDrive is not a drive letter supported by operating system.",
+        "status": "passed",
+        "duration": 6,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\New-PSDrive.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Test-Path",
+        "status": "passed",
+        "duration": 30,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Get-Item",
+        "status": "passed",
+        "duration": 29,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Get-Item on inaccessible path",
+        "status": "passed",
+        "duration": 30,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Get-ChildItem",
+        "status": "passed",
+        "duration": 36,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Get-ChildItem can get subkey names",
+        "status": "passed",
+        "duration": 29,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify New-Item",
+        "status": "passed",
+        "duration": 44,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Copy-Item",
+        "status": "passed",
+        "duration": 51,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Move-Item",
+        "status": "passed",
+        "duration": 44,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Validate basic registry provider Cmdlets.Verify Rename-Item",
+        "status": "passed",
+        "duration": 53,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify New-ItemProperty",
+        "status": "passed",
+        "duration": 33,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Set-ItemProperty",
+        "status": "passed",
+        "duration": 31,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Set-Item",
+        "status": "passed",
+        "duration": 35,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Set-Item with -WhatIf",
+        "status": "passed",
+        "duration": 31,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Get-ItemPropertyValue",
+        "status": "passed",
+        "duration": 30,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Copy-ItemProperty",
+        "status": "passed",
+        "duration": 34,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Move-ItemProperty",
+        "status": "passed",
+        "duration": 39,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Rename-ItemProperty",
+        "status": "passed",
+        "duration": 33,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Clear-ItemProperty",
+        "status": "passed",
+        "duration": 30,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Clear-Item",
+        "status": "passed",
+        "duration": 38,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Clear-Item with -WhatIf",
+        "status": "passed",
+        "duration": 32,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1: Basic Registry Provider Tests.Valdiate basic registry property Cmdlets.Verify Remove-ItemProperty",
+        "status": "passed",
+        "duration": 29,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Registry.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Remove-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to Remove-EventLog -LogName <string> -ComputerName <string>",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Remove-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Remove-EventLog.Tests.ps1: New-EventLog cmdlet tests.should be able to Remove-EventLog -Source <string> -ComputerName <string>",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Remove-EventLog.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Set-Content.Tests.ps1: Set-Content should work for PSDrive with UNC path as root.should create a file in a psdrive with UNC path as root",
+        "status": "skipped",
+        "duration": 0,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Set-Content.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1: Connection.Test connection to local host on working port",
+        "status": "passed",
+        "duration": 8,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1: Connection.Test connection to unreachable host port 80",
+        "status": "passed",
+        "duration": 1004,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1: Connection.Test detailed connection to local host on working port",
+        "status": "passed",
+        "duration": 18,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1: Connection.Test detailed connection to local host on working port with modified count",
+        "status": "passed",
+        "duration": 1003,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1: Connection.Test detailed connection to unreachable host port 80",
+        "status": "passed",
+        "duration": 1007,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\Test-Connection.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\TimeZone.Tests.ps1: Set-Timezone test case: call by single Id.Call Set-TimeZone by Id",
+        "status": "passed",
+        "duration": 122,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Management\\TimeZone.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1: Local script debugger is disabled in system lock down mode.Verifies that Set-PSBreakpoint Line is disabled on locked down system",
+        "status": "passed",
+        "duration": 78,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1: Local script debugger is disabled in system lock down mode.Verifies that Set-PSBreakpoint Statement is disabled on locked down system",
+        "status": "passed",
+        "duration": 81,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1: Local script debugger is disabled in system lock down mode.Verifies that Set-PSBreakpoint Command is disabled on locked down system",
+        "status": "passed",
+        "duration": 53,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1: Local script debugger is disabled in system lock down mode.Verifies that Set-PSBreakpoint Variable is disabled on locked down system",
+        "status": "passed",
+        "duration": 88,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1: Local script debugger is disabled in system lock down mode.Verifies that Wait-Debugger is disabled on locked down system",
+        "status": "passed",
+        "duration": 39,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageDebugger.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageValidation.Tests.ps1: Importing PowerShell script files are not allowed in ConstrainedLanguage.Verifies that ps1 script file cannot be imported in ConstrainedLanguage mode",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageValidation.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageValidation.Tests.ps1: Importing PowerShell script files are not allowed in ConstrainedLanguage.Verifies that ps1 script file can be imported in FullLangauge mode",
+        "status": "passed",
+        "duration": 4,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ConstrainedLanguageValidation.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ExecutionPolicy.Tests.ps1: Validate Set-ExecutionPolicy -Scope (Admin).-Scope LocalMachine is Settable, but overridden",
+        "status": "passed",
+        "duration": 9,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ExecutionPolicy.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ExecutionPolicy.Tests.ps1: Validate Set-ExecutionPolicy -Scope (Admin).-Scope LocalMachine is Settable",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Security\\ExecutionPolicy.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Invoke-Item.Tests.ps1: Invoke-Item tests on Windows.Should invoke a file without error on Windows full SKUs",
+        "status": "passed",
+        "duration": 221,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Invoke-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Invoke-Item.Tests.ps1: Invoke-Item tests on Windows.Should start a file without error on Windows full SKUs",
+        "status": "passed",
+        "duration": 78,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Invoke-Item.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Set-Date.Tests.ps1: Set-Date for admin.Set-Date should be able to set the date in an elevated context",
+        "status": "passed",
+        "duration": 2,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Set-Date.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Set-Date.Tests.ps1: Set-Date for admin.Set-Date should be able to set the date with -Date parameter",
+        "status": "passed",
+        "duration": 15,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\Set-Date.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Web cmdlets tests using the cmdlet's aliases.Execute Invoke-WebRequest",
+        "status": "passed",
+        "duration": 139,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Web cmdlets tests using the cmdlet's aliases.Execute Invoke-RestMethod",
+        "status": "passed",
+        "duration": 10,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Web cmdlets tests using the cmdlet's aliases.Web cmdlets ignore headers with null value",
+        "status": "passed",
+        "duration": 11,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: CTRL-C Cancels request before request headers received",
+        "status": "passed",
+        "duration": 1039,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: CTRL-C Cancels request after request headers received",
+        "status": "passed",
+        "duration": 5004,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: HTTPS CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 5008,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: Brotli Compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 4997,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: Gzip Compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 4996,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: Gzip Compression CTRL-C Cancels request after request headers with Content-Length",
+        "status": "passed",
+        "duration": 4996,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: Deflate Compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 4998,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: HTTPS with Brotli compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 5003,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: HTTPS with Gzip compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 4998,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: HTTPS with Deflate compression CTRL-C Cancels request after request headers",
+        "status": "passed",
+        "duration": 5011,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: CTRL-C Cancels file download request after request headers received",
+        "status": "passed",
+        "duration": 4996,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-WebRequest: CTRL-C after stalled file download completes gives entire file",
+        "status": "passed",
+        "duration": 1011,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C Cancels request before request headers received",
+        "status": "passed",
+        "duration": 1010,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C Cancels request after JSON request headers received",
+        "status": "passed",
+        "duration": 5009,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C after stalled JSON download processes JSON response",
+        "status": "passed",
+        "duration": 1012,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C Cancels request after plain request headers received",
+        "status": "passed",
+        "duration": 4995,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C after stalled atom feed download processes atom response",
+        "status": "passed",
+        "duration": 1012,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support Cancellation through CTRL-C.Invoke-RestMethod: CTRL-C Cancels request in XML atom processing",
+        "status": "passed",
+        "duration": 4995,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Web cmdlets Unix Sockets tests.Execute Invoke-WebRequest with -UnixSocket",
+        "status": "passed",
+        "duration": 70,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Web cmdlets Unix Sockets tests.Execute Invoke-RestMethod with -UnixSocket",
+        "status": "passed",
+        "duration": 5,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-WebRequest: OperationTimeoutSeconds does not cancel if stalls shorter than timeout but download takes longer than timeout",
+        "status": "passed",
+        "duration": 8028,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-WebRequest: OperationTimeoutSeconds cancels if stall lasts longer than OperationTimeoutSeconds value",
+        "status": "passed",
+        "duration": 2998,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-WebRequest: OperationTimeoutSeconds cancels if stall lasts longer than OperationTimeoutSeconds value for HTTPS/gzip compression",
+        "status": "passed",
+        "duration": 3015,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-RestMethod: OperationTimeoutSeconds does not cancel if stalls shorter than timeout but download takes longer than timeout",
+        "status": "passed",
+        "duration": 8015,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-RestMethod: OperationTimeoutSeconds cancels if stall lasts longer than OperationTimeoutSeconds value",
+        "status": "passed",
+        "duration": 1997,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-RestMethod: OperationTimeoutSeconds cancels when doing XML atom processing",
+        "status": "passed",
+        "duration": 2000,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-RestMethod: OperationTimeoutSeconds cancels when doing JSON processing",
+        "status": "passed",
+        "duration": 1999,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1: Invoke-WebRequest and Invoke-RestMethod support OperationTimeoutSeconds.Invoke-RestMethod: OperationTimeoutSeconds cancels when doing XML atom processing for HTTPS/gzip compression",
+        "status": "passed",
+        "duration": 1998,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\Microsoft.PowerShell.Utility\\WebCmdlets.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1: PSDiagnostics cmdlets tests..Test for Enable-PSTrace and Disable-PSTrace cmdlets..Should enable Analytic logs for Microsoft-Windows-PowerShell.",
+        "status": "passed",
+        "duration": 147,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1: PSDiagnostics cmdlets tests..Test for Enable-PSTrace and Disable-PSTrace cmdlets..Should disable Analytic logs for Microsoft-Windows-PowerShell.",
+        "status": "passed",
+        "duration": 98,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1: PSDiagnostics cmdlets tests..Test for Get-LogProperties cmdlet..Should return properties of Analytic logs for 'Microsoft-Windows-PowerShell'.",
+        "status": "passed",
+        "duration": 34,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1: PSDiagnostics cmdlets tests..Test for Set-LogProperties cmdlet..Should invert AutoBackup setting of Analytic logs for 'Microsoft-Windows-PowerShell'.",
+        "status": "passed",
+        "duration": 48,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1"
+      },
+      {
+        "name": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1: PSDiagnostics cmdlets tests..Test for Set-LogProperties cmdlet..Should throw exception for invalid LogName.",
+        "status": "passed",
+        "duration": 3,
+        "suite": "D:\\a\\PowerShell\\PowerShell\\test\\powershell\\Modules\\PSDiagnostics\\PSDiagnostics.Tests.ps1"
+      }
+    ],
+    "environment": {}
+  }
+}
