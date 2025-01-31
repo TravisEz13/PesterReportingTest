@@ -32,24 +32,25 @@ jobs:
         run: |-
           Get-ChildItem '${{ github.workspace }}\ctrf\*.json'
         shell: powershell
-        
-      - name: Publish Test Report - full path
-        uses: ctrf-io/github-test-reporter@v1
-        with:
-          report-path: '${{ github.workspace }}\ctrf\*.json'
-        if: always()
 
-      - name: Publish Test Report - relative path - no prefix
-        uses: ctrf-io/github-test-reporter@v1
-        with:
-          report-path: 'ctrf\*.json'
-        if: always()
+# These three don't work         
+#      - name: Publish Test Report - full path
+#        uses: ctrf-io/github-test-reporter@v1
+#        with:
+#          report-path: '${{ github.workspace }}\ctrf\*.json'
+#        if: always()
 
-      - name: Publish Test Report - relative path - .\
-        uses: ctrf-io/github-test-reporter@v1
-        with:
-          report-path: '.\ctrf\*.json'
-        if: always()
+#      - name: Publish Test Report - relative path - no prefix
+#        uses: ctrf-io/github-test-reporter@v1
+#       with:
+#          report-path: 'ctrf\*.json'
+#        if: always()
+
+#      - name: Publish Test Report - relative path - .\
+#        uses: ctrf-io/github-test-reporter@v1
+#        with:
+#          report-path: '.\ctrf\*.json'
+#        if: always()
 
       - name: Publish Test Report - relative path - ./
         uses: ctrf-io/github-test-reporter@v1
